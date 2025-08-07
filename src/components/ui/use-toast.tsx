@@ -8,7 +8,7 @@ type ToasterToast = ToastPrimitives.ToastProps & {
   id: string
   title?: React.ReactNode
   description?: React.ReactNode
-  action?: ToastPrimitives.ToastActionElement
+  action?: React.ReactNode;
 }
 
 const actionTypes = {
